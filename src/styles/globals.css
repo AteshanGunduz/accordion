@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  border-radius: 2rem;
+  width: 40rem;
+  background-color: #711db0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+.container h1 {
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+}
+.data-container {
+  width: 35rem;
+  justify-content: center;
+  background-color: white;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  border-radius: 1rem;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.title h2 {
+  padding-left: 0.6rem;
+}
+.title button {
+  height: 1.5rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
